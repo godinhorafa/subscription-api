@@ -1,4 +1,4 @@
-# PI de Gerenciamento de Assinaturas
+# API de Gerenciamento de Assinaturas
 
 Esta é uma API para gerenciamento de assinaturas, permitindo que os usuários criem, visualizem e gerenciem suas assinaturas de forma eficiente. A API também envia lembretes por e-mail antes da renovação das assinaturas.
 
