@@ -45,8 +45,8 @@ Antes de começar, você precisará ter o Node.js e o MongoDB instalados em sua 
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu_usuario/subdub.git
-   cd subdub
+   git clone url
+   cd subscription-api
    ```
 
 2. Instale as dependências:
@@ -58,7 +58,7 @@ Antes de começar, você precisará ter o Node.js e o MongoDB instalados em sua 
 3. Crie um arquivo `.env.development.local` ou `.env.production.local` na raiz do projeto e adicione suas variáveis de ambiente:
    ```
    PORT=3000
-   DB_URI=mongodb://localhost:27017/subdub
+   DB_URI=mongodb://localhost:27017/subscription-api
    JWT_SECRET=seu_segredo
    JWT_EXPIRES_IN=1d
    EMAIL_PASSWORD=sua_senha_de_email
